@@ -1,1 +1,21 @@
-/* css styles */
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+:root {
+  --bs-primary: #D63384; /* "Gicleeic" Magenta */
+  --bs-secondary: #0d1b2a; /* Deep "Ink" Blue */
+  --bs-body-font-family: 'Lato', sans-serif;
+  --bs-font-monospace: 'Fira Code', monospace;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif; /* The "Art" Font */
+  color: var(--bs-secondary);
+}
+
+/* Make code blocks look like a dark terminal */
+pre {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
