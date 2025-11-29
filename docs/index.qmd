@@ -1,0 +1,22 @@
+---
+title: ""
+page-layout: full
+---
+
+::::: grid
+::: {.g-col-12 .g-col-md-6}
+# The Staff Scientist.
+
+### *All models are wrong, but some sound better on vinyl.*
+
+I am a Staff Data Scientist candidate exploring the intersection of **Computational Biology**, **Machine Learning**, and **Pop Culture**.
+
+[Read the Blog →](blog.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![](assets/your_best_stipple_art.jpg.jpg){style="border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);" fig-alt="Stippling art example"}
+:::
+:::::
+
+## Latest Notes
