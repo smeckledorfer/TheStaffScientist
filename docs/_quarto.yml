@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+
+
+format:
+  html:
+    theme: lux
+    css: styles.cssproject
+    toc: true
+  
+
+website:
+  title: "The Staff Scientist"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - text: "🎨 Gicleeic Acids Shop"
+        href: gallery.qmd # This leads to your art funnel
+      - icon: github
+        href: https://github.com/smeckledorfer
+      - icon: linkedin
+        href: https://www.linkedin.com/in/matthewjehrio/
+
+
+
+editor: visual
+
